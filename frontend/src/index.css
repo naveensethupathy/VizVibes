@@ -1,0 +1,84 @@
+
+
+
+body {
+  margin: 0;
+  font-family: poppins;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #F5F7F8;
+  color: #45474B;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.heading{
+  text-align: center;
+
+  
+
+}
+.input{
+  margin: 0 20px ;
+  display: flex;
+  gap: 10px;
+}
+
+.image{
+  float: right;
+  margin: 50px;
+  height: 500px;
+  width: 500px;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  
+}
+
+.loader{
+ float: right;
+ margin-left: 300px;
+ margin-top: 200px;
+}
+
+.input input{
+  width: 40%;
+  height: 40px;
+  border-radius: 7px;
+  border-width: 1px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  border: none;
+  text-indent:20px;
+
+}
+
+.content{
+  display: flex;
+ 
+}
+.content p{
+  margin: 20px;
+  float: left;
+  margin-top: 50px;
+  font-size: large;
+  line-height: 1.7;
+  width: 50%;
+}
+.btn{
+  border: none;
+  background-color: #FFC436;
+  padding: 10px 20px;
+  border-radius: 7px;
+  font-weight: bolder;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.dbtn{
+  border: none;
+  background-color: #219C90;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 7px;
+  font-weight: bolder;
+  margin:10px 0;
+}
